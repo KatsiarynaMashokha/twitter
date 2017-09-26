@@ -19,11 +19,11 @@ export class HomeComponent implements OnInit {
     this.posts = this.postService.getPosts();
   }
 
-  addPost(newPostFromChild: Post){
+  addPost(newPostFromChild){
     this.posts.push(newPostFromChild);
   }
 
-  goToDetailPage(clickedPost: Post) {
+  goToDetailPage(clickedPost) {
      this.router.navigate(['posts', clickedPost.$key]);
   };
 
