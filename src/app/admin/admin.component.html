@@ -1,0 +1,23 @@
+<h1>New Post</h1>
+  <div>
+     <label>Enter title:</label>
+     <input #newTitle>
+     <br>
+     <label>Enter author:</label>
+     <input #newAuthor>
+     <br>
+     <label>Enter description:</label>
+     <input #newDesc>
+     <br>
+     <label>Enter image link:</label>
+     <input #newImage>
+     <br>
+     <label>Enter category:</label>
+     <select>
+       <option #newType value="Sports">Sports</option>
+       <option #newType value="Entertainment">Entertainment</option>
+     </select>
+     <br>
+
+     <button (click)="addPost(newTitle.value, newAuthor.value, newDesc.value, newImage.value, newType.value)">Submit</button>
+   </div>

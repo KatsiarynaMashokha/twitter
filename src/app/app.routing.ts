@@ -4,6 +4,7 @@ import { FeaturedComponent } from './featured/featured.component';
 import { SportsComponent } from './sports/sports.component';
 import { HomeComponent } from './home/home.component';
 import { PostDetailComponent } from './post-detail/post-detail.component';
+import { AdminComponent }   from './admin/admin.component';
 
 const routes: Routes = [
   {
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path: 'posts/:id',
     component: PostDetailComponent
+  },
+  {
+    path: 'admin',
+    component: AdminComponent
   }
 ];
 

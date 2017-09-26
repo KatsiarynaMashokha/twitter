@@ -1,0 +1,25 @@
+{"posts":[{
+  "title": "CNN Breaking News",
+  "author": "CNN",
+  "description": "5 living former US Presidents expand their hurricane relief effort to include Puerto Rico and US Virgin Islands.",
+  "image": "https://pbs.twimg.com/media/DKlVGXLVYAAnUya.jpg",
+  "type": "news",
+  "id": "1"
+  },
+  {
+    "title": "Halo Game",
+    "author": "Halo",
+    "description": "Ten years ago, the Master Chief inspired us to Believe.  Thank you for all the wonderful memories, Halo 3!",
+    "image": "https://pbs.twimg.com/media/DKlKudUXkAAO-ne.jpg",
+    "type": "entertainment",
+    "id": "2"
+  },
+  {
+    "title": "The Big Bang Theory",
+    "author": "ABC",
+    "description": "Be ready for the big night on #BigBangTheory, anywhere you are! Here's how to watch the premiere across devices.",
+    "image": "https://pbs.twimg.com/media/DKjB9eHVAAAGzwU.jpg",
+    "type": "entertainment",
+    "id": "3"
+  }]
+}

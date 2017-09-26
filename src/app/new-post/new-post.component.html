@@ -1,4 +1,4 @@
-<h1>New Post</h1>
+<!-- <h1>New Post</h1>
     <div>
        <label>Enter title:</label>
        <input #newTitle>
@@ -18,9 +18,6 @@
          <option #newType value="Entertainment">Entertainment</option>
        </select>
        <br>
-       <label>Enter id number:</label>
-       <input #newId>
+       <button (click)="addPost(newTitle.value, newAuthor.value, newDesc.value, newImage.value, newType.value); newTitle.value=''; newAuthor.value='';newDesc.value=''; newImage.value='';newType.value = ''; ">Add</button>
        <br>
-       <button (click)="addPost(newTitle.value, newAuthor.value, newDesc.value, newImage.value, newType.value, newId.value); newTitle.value=''; newAuthor.value='';newDesc.value=''; newImage.value='';newType.value = ''; newId.value = '';">Add</button>
-       <br>
-     </div>
+     </div> -->

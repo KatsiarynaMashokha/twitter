@@ -1,14 +1,15 @@
 <h2>Posts</h2>
 
-<div *ngFor="let currentPost of posts"  class="panel panel-default">
+<div *ngFor="let currentPost of posts | async"  class="panel panel-default">
   <div class="panel-body">
     <h3 (click)="goToDetailPage(currentPost)">{{currentPost.title}} </h3>
+    <h1>{{currentPost.$key}}</h1>
     <button (click)="editPost(currentPost)">Edit!</button>
   </div>
 </div>
 
 <div class="container">
-  <app-new-post (newPostSender)="addPost($event)"></app-new-post>
+  <!-- <app-new-post (newPostSender)="addPost($event)"></app-new-post> -->
 </div>
 <div>
   <app-edit-post [childSelectedPost]="selectedPost" (doneButtonClickedSender)="finishedEditing()"></app-edit-post>
